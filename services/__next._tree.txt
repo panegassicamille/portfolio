@@ -1,4 +1,4 @@
-:HL["/portfolio/_next/static/chunks/04tm2fgp2vea-.css","style"]
+:HL["/portfolio/_next/static/chunks/02z0bhk2xtr6j.css","style"]
 :HL["/portfolio/_next/static/media/017d9bea37084d9b-s.p.41rroleoq1br7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/47fe1b7cd6e6ed85-s.p.3bh2vc0w-r-ll.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/5de307a1cf21ffb0-s.p.2mgv7i7jizf-l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -14,4 +14,4 @@
 :HL["/portfolio/identite/lettres/maj-V.png","image"]
 :HL["/portfolio/identite/lettres/maj-I.png","image"]
 :HL["/portfolio/identite/lettres/maj-C.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"UyOJnKOH0-b24d2_vkzfh"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-Ewtrt5yl2TJSZWlXeZiz"}
