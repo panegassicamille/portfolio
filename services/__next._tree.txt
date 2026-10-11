@@ -14,4 +14,4 @@
 :HL["/portfolio/identite/lettres/maj-V.png","image"]
 :HL["/portfolio/identite/lettres/maj-I.png","image"]
 :HL["/portfolio/identite/lettres/maj-C.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-Ewtrt5yl2TJSZWlXeZiz"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"xobOppONhkT-aAFU_GOgv"}
