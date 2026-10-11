@@ -54,4 +54,4 @@
 :HL["/portfolio/accueil/croquis-dessin-final.jpg","image"]
 :HL["/portfolio/accueil/tarsila-lake.jpg","image"]
 :HL["/portfolio/accueil/samuel.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"xobOppONhkT-aAFU_GOgv"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"ph3_ZCwp7Lf8BYn2var5s"}
