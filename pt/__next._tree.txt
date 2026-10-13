@@ -68,4 +68,4 @@
 :HL["/portfolio/optim/projets/cristal-bar/illustrations/burger.640.webp","image"]
 :HL["/portfolio/accueil/tarsila-lake.jpg","image"]
 :HL["/portfolio/accueil/samuel.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"lang","param":{"type":"d","key":"pt","siblings":["a-propos","contact","fleches","projets","services"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"L4oFHq2RJfX5Edj32gb0z"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"lang","param":{"type":"d","key":"pt","siblings":["a-propos","contact","fleches","projets","services"]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"4s0jn-zkjHv4rt5MNBfHU"}
