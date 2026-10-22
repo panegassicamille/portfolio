@@ -1,4 +1,4 @@
-:HL["/portfolio/_next/static/chunks/41nod4x86_i-j.css","style"]
+:HL["/portfolio/_next/static/chunks/2mr_xlbwuhbgo.css","style"]
 :HL["/portfolio/_next/static/media/017d9bea37084d9b-s.p.41rroleoq1br7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/47fe1b7cd6e6ed85-s.p.3bh2vc0w-r-ll.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/5de307a1cf21ffb0-s.p.2mgv7i7jizf-l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -8,7 +8,7 @@
 :HL["/portfolio/_next/static/media/b6620be20ad708dd-s.p.3xsquyelyuj-f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/edcf447d6990da7e-s.p.2dp-f23wu3v3i.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/_next/static/media/effe91970fc4db64-s.p.0oace-s_gkfks.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/portfolio/_next/static/chunks/2qyuzyqvpj030.css","style"]
-:HL["/portfolio/_next/static/chunks/2g6qkx8tqfdog.css","style"]
-:HL["/portfolio/_next/static/chunks/08h-ade9zcout.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"lang","param":{"type":"d","key":"pt","siblings":["a-propos","contact","fleches","projets","services"]},"prefetchHints":4192,"slots":{"children":{"name":"projets","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"cristal-bar","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"0dAc59K24WpTZoEyxp3rA"}
+:HL["/portfolio/_next/static/chunks/0nt6tflz2zg56.css","style"]
+:HL["/portfolio/_next/static/chunks/1xx7vdmclqq6j.css","style"]
+:HL["/portfolio/_next/static/chunks/3fuz3xskoywvw.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"lang","param":{"type":"d","key":"pt","siblings":["a-propos","contact","fleches","projets","services"]},"prefetchHints":4192,"slots":{"children":{"name":"projets","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"cristal-bar","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"h7HZwWrl-FsiBEQPeSA1Q"}
