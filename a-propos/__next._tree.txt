@@ -16,4 +16,4 @@
 :HL["/portfolio/identite/lettres/maj-E.png","image"]
 :HL["/portfolio/identite/portrait.jpg","image"]
 :HL["/portfolio/identite/alphabet.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"a-propos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"7_QHPxrDKfV8JhvyjZJyo"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"a-propos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"GDgeL2tYS68zDlFgCdsy1"}
