@@ -1,0 +1,9 @@
+:HL["/portfolio/_next/static/chunks/1a5i5rb4qr2bb.css","style"]
+:HL["/portfolio/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/_next/static/chunks/2dz5e_8gjw_y3.css","style"]
+:HL["/portfolio/fonts/poppins-400.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/fonts/poppins-500.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/fonts/poppins-700.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/optim/couvertures/sparkle-lounges-entiere-1024.webp","image",{"type":"image/avif","fetchPriority":"high","imageSrcSet":"/portfolio/optim/couvertures/sparkle-lounges-entiere-640.avif 640w, /portfolio/optim/couvertures/sparkle-lounges-entiere-1024.avif 1024w, /portfolio/optim/couvertures/sparkle-lounges-entiere-1600.avif 1600w, /portfolio/optim/couvertures/sparkle-lounges-entiere-2000.avif 2000w","imageSizes":"max(58vw, calc((100vh - 5rem) * 1.778))","media":"(min-width: 768px)"}]
+:HL["/portfolio/optim/couvertures/sparkle-lounges-portrait-800.webp","image",{"type":"image/avif","fetchPriority":"high","imageSrcSet":"/portfolio/optim/couvertures/sparkle-lounges-portrait-640.avif 640w, /portfolio/optim/couvertures/sparkle-lounges-portrait-800.avif 800w, /portfolio/optim/couvertures/sparkle-lounges-portrait-900.avif 900w","imageSizes":"100vw","media":"(max-width: 767px)"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"lang","param":{"type":"d","key":"pt","siblings":["a-propos","contact","fleches","projets","services"]},"prefetchHints":4192,"slots":{"children":{"name":"projets","param":null,"prefetchHints":4192,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sparkle-lounges","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}}}},"staleTime":300,"buildId":"QcrRLwWSNrcG0NrAaXUk5"}
