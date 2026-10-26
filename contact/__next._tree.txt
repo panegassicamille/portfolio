@@ -1,4 +1,4 @@
-:HL["/portfolio/_next/static/chunks/1a5i5rb4qr2bb.css","style"]
+:HL["/portfolio/_next/static/chunks/120i2s9c7qryn.css","style"]
 :HL["/portfolio/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-400.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-500.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -8,4 +8,4 @@
 :HL["/portfolio/identite/lettres/maj-N.png","image"]
 :HL["/portfolio/identite/lettres/maj-T.png","image"]
 :HL["/portfolio/identite/lettres/maj-A.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"contact","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"QcrRLwWSNrcG0NrAaXUk5"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"contact","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"5nNBrwB0e3hxtXLWs19Gf"}
