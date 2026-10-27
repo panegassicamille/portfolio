@@ -1,4 +1,4 @@
-:HL["/portfolio/_next/static/chunks/120i2s9c7qryn.css","style"]
+:HL["/portfolio/_next/static/chunks/10d3_pnet7d_7.css","style"]
 :HL["/portfolio/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-400.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-500.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -11,4 +11,4 @@
 :HL["/portfolio/identite/lettres/maj-E.png","image"]
 :HL["/portfolio/identite/portrait.jpg","image"]
 :HL["/portfolio/identite/alphabet.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"a-propos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"5nNBrwB0e3hxtXLWs19Gf"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"a-propos","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"BKEwxqFK-_H9WhhyzlLm9"}
