@@ -1,7 +1,7 @@
-:HL["/portfolio/_next/static/chunks/3exwuxcbiih2i.css","style"]
+:HL["/portfolio/_next/static/chunks/1r957rteypfi0.css","style"]
 :HL["/portfolio/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-400.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-500.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/fonts/poppins-700.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/portfolio/optim/couvertures/sparkle-lounges-portrait-800.webp","image",{"type":"image/avif","fetchPriority":"high","imageSrcSet":"/portfolio/optim/couvertures/sparkle-lounges-portrait-640.avif 640w, /portfolio/optim/couvertures/sparkle-lounges-portrait-800.avif 800w, /portfolio/optim/couvertures/sparkle-lounges-portrait-900.avif 900w","imageSizes":"(min-width: 1024px) calc(33.3vw - 35px), (min-width: 640px) calc(50vw - 46px), calc(100vw - 40px)"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"nZtKQdK2RJwmfuXq2vYNs"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"aaWEk3mV5nAQQ5LCBH3U_"}
