@@ -8,4 +8,4 @@
 :HL["/portfolio/identite/lettres/maj-N.png","image"]
 :HL["/portfolio/identite/lettres/maj-T.png","image"]
 :HL["/portfolio/identite/lettres/maj-A.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"contact","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"uBtyXDD1Ah0RO3eMWu43K"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"contact","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"pGLqxqQwGqlAweO_YWL9x"}
