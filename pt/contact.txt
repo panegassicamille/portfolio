@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+3:I[90871,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
+4:I[2971,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
+5:I[39756,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
+6:I[37457,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
+b:I[68027,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default",1]
+:HL["/portfolio/_next/static/chunks/0aw7ohk8c_h3f.css","style"]
+:HL["/portfolio/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/_next/static/chunks/3ivt2e6em4tps.css","style"]
+:HL["/portfolio/fonts/poppins-400.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/fonts/poppins-500.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/portfolio/fonts/poppins-700.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:T56b,(function(){
+  if (!("IntersectionObserver" in window) || !("MutationObserver" in window)) return;
+  var d = document.documentElement;
+  d.setAttribute("data-apparitions", "");
+  var vu = function (entrees, o) {
+    for (var i = 0; i < entrees.length; i++) {
+      var e = entrees[i];
+      if (!e.isIntersecting) continue;
+      e.target.setAttribute("data-vu", "");
+      o.unobserve(e.target);
+    }
+  };
+  // le texte apparaît une fois un peu entré ; les images, juste avant d'entrer
+  var texte = new IntersectionObserver(vu, { rootMargin: "-60px" });
+  var images = new IntersectionObserver(vu, { rootMargin: "0px 0px 200px 0px" });
+  var suivre = function (el) { (el.classList.contains("reveal--rise") ? texte : images).observe(el); };
+  var chercher = function (r) { if (r.querySelectorAll) r.querySelectorAll(".reveal:not([data-vu])").forEach(suivre); };
+  var lancer = function () {
+    chercher(document);
+    new MutationObserver(function (mutations) {
+      mutations.forEach(function (m) {
+        m.addedNodes.forEach(function (n) {
+          if (n.nodeType !== 1) return;
+          if (n.matches(".reveal:not([data-vu])")) suivre(n);
+          chercher(n);
+        });
+      });
+    }).observe(document.body, { childList: true, subtree: true });
+  };
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", lancer);
+  else lancer();
+})();9:X
+0:{"P":null,"c":["","pt","contact"],"q":"","i":false,"f":[[["",{"children":[["lang","pt","d",["a-propos","contact","fleches","projets","services"]],{"children":["contact",{"children":["__PAGE__",{},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4608]},"$undefined","$undefined",4624],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/0aw7ohk8c_h3f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"fr","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"instrument_serif_dc62267-module__oZsM0a__variable","children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"className":"relative z-10","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","div",null,{"className":"page","children":["$","$L6",null,{}]}],"templateStyles":[],"templateScripts":null,"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":"$L7","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["$L8",{},null,false,null]},null,false,"$9"]},null,false,"$9"]},null,false,null],"$La",false]],"m":"$undefined","G":["$b",["$Lc"]],"S":true,"h":null,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"YbcgjaZgjDiwHeIvGmiA2"}
+e:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
+11:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"ViewportBoundary"]
+13:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"MetadataBoundary"]
+7:["$","$L6",null,{}]
+8:["$","$1","c",{"children":["$Ld",[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/3ivt2e6em4tps.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}]
+a:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$L12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$f",null,{"name":"Next.Metadata","children":"$L14"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+c:["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/0aw7ohk8c_h3f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+9:C
+d:["$","div",null,{"className":"contact","children":[["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","style":"$undefined","children":[["$","h1",null,{"className":"contact-titre","children":"Contact"}],["$","p",null,{"className":"contact-accroche","children":"Um projeto, uma vaga, um encontro: escreva-me."}]]}],["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","style":{"transitionDelay":"0.08s"},"children":["$","dl",null,{"className":"contact-fiche","children":[[["$","dt",null,{"children":"E-mail"}],["$","dd",null,{"children":["$","a",null,{"href":"mailto:camillepanegassi@gmail.com","children":"camillepanegassi@gmail.com"}]}]],[["$","dt",null,{"children":"Telefone"}],["$","dd",null,{"children":["$","a",null,{"href":"tel:+33768682656","children":"+33 7 68 68 26 56"}]}]],[["$","dt",null,{"children":"WhatsApp"}],["$","dd",null,{"children":["$","a",null,{"href":"https://wa.me/33768682656","target":"_blank","rel":"noopener noreferrer","children":"+33 7 68 68 26 56"}]}]],["$","dt",null,{"children":"Baseada em"}],["$","dd",null,{"children":"Paris"}]]}]}]]}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:I[27201,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"IconMark"]
+10:null
+14:[["$","title","0",{"children":"Contato · Camille Panegassi"}],["$","meta","1",{"name":"description","content":"Portfolio de Camille Panegassi, architecte d'intérieur et designer : des univers de marque complets dans l'hospitalité et le retail, de l'espace au graphisme et à l'objet."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"/portfolio/icon.svg?icon.1nfph6i0qx0r0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L15","5",{}]]
