@@ -1,57 +1,29 @@
 1:"$Sreact.fragment"
-2:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"OutletBoundary"]
-3:"$Sreact.suspense"
-7:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"ViewportBoundary"]
-8:I[97367,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"MetadataBoundary"]
-9:I[27201,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"IconMark"]
-b:I[39756,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
-c:I[37457,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
-:HL["/portfolio/_next/static/chunks/3ivt2e6em4tps.css","style"]
-:HL["/portfolio/_next/static/chunks/0aw7ohk8c_h3f.css","style"]
-6:X
-e:X
-e:C
-f:T56b,(function(){
-  if (!("IntersectionObserver" in window) || !("MutationObserver" in window)) return;
-  var d = document.documentElement;
-  d.setAttribute("data-apparitions", "");
-  var vu = function (entrees, o) {
-    for (var i = 0; i < entrees.length; i++) {
-      var e = entrees[i];
-      if (!e.isIntersecting) continue;
-      e.target.setAttribute("data-vu", "");
-      o.unobserve(e.target);
-    }
-  };
-  // le texte apparaît une fois un peu entré ; les images, juste avant d'entrer
-  var texte = new IntersectionObserver(vu, { rootMargin: "-60px" });
-  var images = new IntersectionObserver(vu, { rootMargin: "0px 0px 200px 0px" });
-  var suivre = function (el) { (el.classList.contains("reveal--rise") ? texte : images).observe(el); };
-  var chercher = function (r) { if (r.querySelectorAll) r.querySelectorAll(".reveal:not([data-vu])").forEach(suivre); };
-  var lancer = function () {
-    chercher(document);
-    new MutationObserver(function (mutations) {
-      mutations.forEach(function (m) {
-        m.addedNodes.forEach(function (n) {
-          if (n.nodeType !== 1) return;
-          if (n.matches(".reveal:not([data-vu])")) suivre(n);
-          chercher(n);
-        });
-      });
-    }).observe(document.body, { childList: true, subtree: true });
-  };
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", lancer);
-  else lancer();
-})();0:{"buildId":"bAqN3JAFLLAedhvbQ1w2y","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"contact","children":[["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","children":[["$","h1",null,{"className":"contact-titre","children":"Contact"}],["$","p",null,{"className":"contact-accroche","children":"Un projet, un poste, une rencontre : écrivez-moi."}]]}],["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","style":{"transitionDelay":"0.08s"},"children":["$","dl",null,{"className":"contact-fiche","children":[[["$","dt",null,{"children":"E-mail"}],["$","dd",null,{"children":["$","a",null,{"href":"mailto:camillepanegassi@gmail.com","children":"camillepanegassi@gmail.com"}]}]],[["$","dt",null,{"children":"Téléphone"}],["$","dd",null,{"children":["$","a",null,{"href":"tel:+33768682656","children":"+33 7 68 68 26 56"}]}]],[["$","dt",null,{"children":"WhatsApp"}],["$","dd",null,{"children":["$","a",null,{"href":"https://wa.me/33768682656","target":"_blank","rel":"noopener noreferrer","children":"+33 7 68 68 26 56"}]}]],["$","dt",null,{"children":"Basée à"}],["$","dd",null,{"children":"Paris"}]]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/3ivt2e6em4tps.css","precedence":"next"}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact · Camille Panegassi"}],["$","meta","1",{"name":"description","content":"Contacter Camille Panegassi, architecte d'intérieur et designer."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"/portfolio/icon.svg?icon.1nfph6i0qx0r0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L9","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":"$@a","staleTime":"$6","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"isPartial":"$@d","staleTime":"$6","varyParams":"$e"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/chunks/0aw7ohk8c_h3f.css","precedence":"next"}],["$","script","script-0",{"src":"/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","async":true}],["$","script","script-1",{"src":"/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js","async":true}]],["$","html",null,{"lang":"fr","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$f"}}]}],"$L10"]}]]}],"isPartial":"$@11","staleTime":"$6","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@12","rootVaryParams":null,"needsRuntimeRequest":"$@13"}
-14:I[90871,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
-15:I[2971,["/portfolio/_next/static/chunks/41a5_e2u1ti9b.js","/portfolio/_next/static/chunks/1_dv2kq4cd1ac.js"],"default"]
-4:null
-10:["$","body",null,{"className":"instrument_serif_dc62267-module__oZsM0a__variable","children":["$","$L14",null,{"children":[["$","$L15",null,{}],["$","main",null,{"className":"relative z-10","children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","div",null,{"className":"page","children":["$","$Lc",null,{}]}],"templateStyles":[],"templateScripts":null,"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]}]
-6:300
-13:true
-6:C
-12:0
-a:"$undefined"
-d:"$undefined"
-11:"$undefined"
-5:"$undefined"
+:HL["/portfolio/identite/lettres/maj-C.png","image"]
+:HL["/portfolio/identite/lettres/maj-O.png","image"]
+:HL["/portfolio/identite/lettres/maj-N.png","image"]
+:HL["/portfolio/identite/lettres/maj-T.png","image"]
+:HL["/portfolio/identite/lettres/maj-A.png","image"]
+5:X
+a:X
+a:C
+0:{"buildId":"pGLqxqQwGqlAweO_YWL9x","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[1500px] px-6 md:px-10 pt-40 md:pt-56 pb-28 md:pb-40","children":[["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","children":[["$","p",null,{"className":"meta mb-5","children":"Contact"}],["$","h1",null,{"className":"t-xxl","children":["$","span",null,{"className":"titre-main ","role":"text","aria-label":"Contact","children":[["$","img","0",{"src":"/portfolio/identite/lettres/maj-C.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"-2deg"}}],["$","img","1",{"src":"/portfolio/identite/lettres/maj-O.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"1deg"}}],["$","img","2",{"src":"/portfolio/identite/lettres/maj-N.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"-1deg"}}],["$","img","3",{"src":"/portfolio/identite/lettres/maj-T.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"2deg"}}],["$","img","4",{"src":"/portfolio/identite/lettres/maj-A.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"0deg"}}],["$","img","5",{"src":"/portfolio/identite/lettres/maj-C.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"-2deg"}}],["$","img","6",{"src":"/portfolio/identite/lettres/maj-T.png","alt":"","aria-hidden":true,"className":"titre-main-lettre","style":{"rotate":"1deg"}}]]}]}],["$","p",null,{"className":"titre t-xl max-w-3xl mt-8","children":"Racontez-moi votre lieu."}]]}],["$","div",null,{"className":"mt-24 md:mt-32 grid gap-16 md:grid-cols-[1.2fr_1fr] md:gap-24","children":[["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","style":{"transitionDelay":"0.08s"},"children":["$","form",null,{"name":"contact","method":"POST","data-netlify":"true","netlify-honeypot":"piege","className":"space-y-7 max-w-xl","children":[["$","input",null,{"type":"hidden","name":"form-name","value":"contact"}],["$","p",null,{"className":"hidden","children":["$","label",null,{"children":["Ne pas remplir : ",["$","input",null,{"name":"piege"}]]}]}],["$","div",null,{"children":[["$","label",null,{"htmlFor":"nom","className":"meta block mb-2.5","children":"Votre nom"}],["$","input",null,{"id":"nom","name":"nom","type":"text","required":true,"autoComplete":"name","className":"w-full bg-transparent border-b border-hairline focus:border-bleu outline-none py-3 text-lg transition-colors"}]]}],["$","div",null,{"children":[["$","label",null,{"htmlFor":"email","className":"meta block mb-2.5","children":"Votre e-mail"}],["$","input",null,{"id":"email","name":"email","type":"email","required":true,"autoComplete":"email","className":"w-full bg-transparent border-b border-hairline focus:border-bleu outline-none py-3 text-lg transition-colors"}]]}],["$","div",null,{"children":[["$","label",null,{"htmlFor":"sujet","className":"meta block mb-2.5","children":"Vous êtes"}],["$","select",null,{"id":"sujet","name":"sujet","className":"w-full bg-transparent border-b border-hairline focus:border-bleu outline-none py-3 text-lg transition-colors","children":[["$","option",null,{"children":"Un particulier avec un projet"}],["$","option",null,{"children":"Un commerce ou un lieu à transformer"}],["$","option",null,{"children":"Une agence qui recrute"}],["$","option",null,{"children":"Autre chose"}]]}]]}],["$","div",null,{"children":[["$","label",null,{"htmlFor":"message","className":"meta block mb-2.5","children":"Votre message"}],["$","textarea",null,{"id":"message","name":"message","required":true,"rows":5,"className":"w-full bg-transparent border-b border-hairline focus:border-bleu outline-none py-3 text-lg transition-colors resize-y"}]]}],["$","button",null,{"type":"submit","className":"btn btn--plein","children":"Envoyer le message"}]]}]}],["$","div",null,{"suppressHydrationWarning":true,"className":"reveal reveal--rise","style":{"transitionDelay":"0.14s"},"children":["$","dl",null,{"className":"t-s space-y-5","children":[["$","div",null,{"children":[["$","dt",null,{"className":"meta","children":"E-mail"}],["$","dd",null,{"children":["$","a",null,{"href":"mailto:camillepanegassi@gmail.com","className":"lien","children":"camillepanegassi@gmail.com"}]}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"meta","children":"Téléphone"}],["$","dd",null,{"children":["$","a",null,{"href":"tel:+33768682656","className":"lien","children":"07 68 68 26 56"}]}]]}],["$","div",null,{"children":[["$","dt",null,{"className":"meta","children":"Basée à"}],["$","dd",null,{"children":"Paris, mobile dans toute la France"}]]}],"$L2"]}]}]]}]]}],null,"$L3"]}],"isPartial":"$@4","staleTime":"$5","varyParams":null},{"rsc":"$L6","isPartial":"$@7","staleTime":"$5","varyParams":null},{"rsc":"$L8","isPartial":"$@9","staleTime":"$5","varyParams":"$a"}],"isUpgradeableISRFallback":false,"a":"$@b","rootVaryParams":null,"needsRuntimeRequest":"$@c"}
+d:I[97367,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"ViewportBoundary"]
+11:I[97367,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"MetadataBoundary"]
+12:I[27201,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"IconMark"]
+13:I[39756,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"default"]
+14:I[37457,["/portfolio/_next/static/chunks/3hkqz0xngjv4m.js","/portfolio/_next/static/chunks/2eg4q78s_manj.js"],"default"]
+2:["$","div",null,{"children":[["$","dt",null,{"className":"meta","children":"Réponse"}],["$","dd",null,{"children":"sous 48 h ouvrées"}]]}]
+3:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+6:["$","$1","h",{"children":[null,["$","$L10",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contact · Camille Panegassi"}],["$","meta","1",{"name":"description","content":"Contacter Camille Panegassi, architecte d'intérieur et designer, pour un projet, une mission freelance ou une opportunité en agence."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/portfolio/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"/portfolio/icon.svg?icon.1nfph6i0qx0r0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L12","5",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+8:["$","$1","c",{"children":[null,["$","$L13",null,{"parallelRouterKey":"children","template":["$","$L14",null,{}]}]]}]
+c:true
+f:null
+5:300
+5:C
+b:0
+7:"$undefined"
+9:"$undefined"
+4:"$undefined"
